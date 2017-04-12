@@ -1,0 +1,39 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorButtonNormal">@color/colorButton</item>
+
+    </style>
+
+    <style name="button">
+        <item name="android:layout_marginBottom">@dimen/margin_bottom8</item>
+        <item name="android:layout_marginLeft">@dimen/margin_left24</item>
+        <item name="android:layout_marginRight">@dimen/margin_right24</item>
+    </style>
+
+    <style name="textWraps">
+        <item name="android:layout_marginLeft">@dimen/margin_left26</item>
+        <item name="android:layout_marginBottom">@dimen/margin_bottom8</item>
+    </style>
+
+    <style name="goalTextWrap">
+        <item name="android:textColor">#008000</item>
+        <item name="android:layout_marginBottom">@dimen/margin_bottom16</item>
+    </style>
+
+    <style name="goalScore">
+        <item name="android:textSize">@dimen/text_size56</item>
+        <item name="android:textColor">@color/colorGoalScore</item>
+    </style>
+
+    <style name="teamName">
+        <item name="android:textSize">@dimen/text_size16</item>
+        <item name="android:layout_marginBottom">@dimen/margin_bottom8</item>
+        <item name="android:layout_marginTop">@dimen/margin_top6</item>
+    </style>
+
+</resources>
